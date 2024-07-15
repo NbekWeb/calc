@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calc">
+        <div class="container flex calc__wrapper">
+            <div class="calc__left">
+                <div class="calc__img__wrap flex">
+                    <div class="calc__range__left range">
+
+                        <div class="calc__range__left__touch ">
+                            <div class="touch__btn">
+                                <img src="./img/arrows-vertical.png">
+                            </div>
+                            <p class="touch__text"> 1290 мм</p>
+                        </div>
+                    </div>
+
+                    <div class="calc__img">
+                        <img src="./img/window.png" alt="window" class="calc__img__item">
+                        <div class="calc__range__bottom">
+                            <div class="calc__range__bottom__touch range">
+                                <div class="touch__btn">
+                                    <img src="./img/arrows-horizontal.png">
+                                </div>
+                                <p class="touch__text"> 1290 мм</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc__payment">
+                    <div class="calc__payment__content">
+                        <div>
+                            <p>Изделие:</p>
+                            <span class="payment__all">21 134 ₽</span>
+                        </div>
+                        <div>
+                            <p>Опции:</p>
+                            <span>14 134 ₽</span>
+                        </div>
+                        <div>
+                            <p>Монтаж:</p>
+                            <span> 0 ₽</span>
+                        </div>
+                        <div>
+                            <p>Доставка:</p>
+                            <span>1 000 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="calc__payment__btn">
+                        <div> <span> <img src="./img/cart.png" alt=""> Добавить в корзину</span></div>
+                        <div><span>Получить расчет</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__right">
+                <div class="calc__window">
+                    <div class="window__item window__item__select">
+                        <img src="./img/prime.png" alt="">
+                        <p>Прямой</p>
+                    </div>
+                    <div class="window__item">
+                        <img src="./img/shape-g.png" alt="">
+                        <p>Г-образный</p>
+                    </div>
+                    <div class="window__item">
+                        <img src="./img/shaped.png" alt="">
+                        <p>П-образный</p>
+                    </div>
+                </div>
+                <div class="calc__temp">
+                    <div class="calc__temp__item calc__temp__item__active">
+                        <img src="./img/snow.png">
+                        <div>
+                            <p>Холодное остекление</p>
+                            <span>Алюминиевым профилем</span>
+                        </div>
+                    </div>
+                    <div class="calc__temp__item">
+                        <img src="./img/sun.png">
+                        <div>
+                            <p>Теплое остекление</p>
+                            <span>Пластиковым профилем</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc__form">
+
+                    <div class="select__size">
+                        <div class="select__size__item">
+                            <p>Ширина, мм </p>
+                            <div class="">
+                                <input type="number" class="select__num" max="1800" min="1000" value="1000" />
+                                <span>мм</span>
+                            </div>
+                        </div>
+                        <div class="select__size__item">
+                            <p>Высота, мм </p>
+                            <div class="">
+                                <input type="number" class="select__num" max="8000" min="1500" value="1500" />
+                                <span>мм</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form__temp"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
