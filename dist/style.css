@@ -323,7 +323,7 @@ body {
   background-color: #e9f6d5;
 }
 .calc .calc__right .form__temp .form__temp__item .green__bold {
-  background-color: rgba(136, 238, 221, 0.8);
+  background-color: #8edc;
 }
 .calc .calc__right .form__temp .form__temp__item .calc_stat {
   display: flex;
@@ -440,15 +440,17 @@ body {
   .window__item {
     width: calc(33% - 10px) !important;
   }
+
   .calc__temp__item span {
     display: none;
   }
 }
 @media (min-width: 992px) {
   .calc__window__responsove,
-  .calc__payment__responsive {
+.calc__payment__responsive {
     display: none !important;
   }
+
   .calc__img .calc__img__item {
     width: 400px;
   }
@@ -457,11 +459,12 @@ body {
   .container {
     padding: 0px 30px;
   }
+
   .calc__wrapper {
     flex-direction: column;
   }
   .calc__wrapper .calc__window,
-  .calc__wrapper .calc__payment {
+.calc__wrapper .calc__payment {
     display: none !important;
   }
   .calc__wrapper .calc__temp__item span {
@@ -487,10 +490,12 @@ body {
   .calc__img .calc__img__item {
     width: 400px;
   }
+
   .container {
     width: 100% !important;
     padding: 0 20px !important;
   }
+
   .form__temp {
     flex-direction: column;
     gap: 10px;
@@ -498,9 +503,11 @@ body {
   .form__temp .form__temp__item {
     width: 100% !important;
   }
+
   .calc__range__left__touch .touch__text {
     transform: translate(-45px, 0) rotate(-90deg) !important;
   }
+
   .calc__payment__responsive .calc__payment__content .payment__all {
     font-size: 26px;
   }
@@ -515,4 +522,4 @@ body {
   .calc__img .calc__img__item {
     width: 300px !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}

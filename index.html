@@ -10,9 +10,23 @@
 
 <body>
     <div class="calc">
-        <div class="container flex calc__wrapper">
+        <div class="container  calc__wrapper">
+            <div class="calc__window__responsove">
+                <div class="window__item window__item__select">
+                    <img src="./img/prime.png" alt="">
+                    <p>Прямой</p>
+                </div>
+                <div class="window__item">
+                    <img src="./img/shape-g.png" alt="">
+                    <p>Г-образный</p>
+                </div>
+                <div class="window__item">
+                    <img src="./img/shaped.png" alt="">
+                    <p>П-образный</p>
+                </div>
+            </div>
             <div class="calc__left">
-                <div class="calc__img__wrap flex">
+                <div class="calc__img__wrap ">
                     <div class="calc__range__left range">
 
                         <div class="calc__range__left__touch ">
@@ -149,7 +163,7 @@
                     <div class="calc__checkbox">
                         <div class="check__item">
                             <input type="checkbox" id="check1" name="check1" class="check__item__box">
-                            <label for="check1" > Ламинация или покраска профиля</label>
+                            <label for="check1"> Ламинация или покраска профиля</label>
                         </div>
                         <div class="check__item">
                             <input type="checkbox" id="check2" name="check2" class="check__item__box">
@@ -184,6 +198,31 @@
                         <!--        -->
 
                     </div>
+                </div>
+            </div>
+            <div class="calc__payment__responsive">
+                <div class="calc__payment__content">
+                    <div>
+                        <p>Изделие:</p>
+                        <span class="payment__all">21 134 ₽</span>
+                    </div>
+                    <div>
+                        <p>Опции:</p>
+                        <span>14 134 ₽</span>
+                    </div>
+                    <div>
+                        <p>Монтаж:</p>
+                        <span> 0 ₽</span>
+                    </div>
+                    <div>
+                        <p>Доставка:</p>
+                        <span>1 000 ₽</span>
+                    </div>
+                </div>
+
+                <div class="calc__payment__btn">
+                    <div> <span> <img src="./img/cart.png" alt=""> Добавить в корзину</span></div>
+                    <div><span>Получить расчет</span></div>
                 </div>
             </div>
         </div>
