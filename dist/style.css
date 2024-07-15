@@ -522,4 +522,12 @@ body {
   .calc__img .calc__img__item {
     width: 300px !important;
   }
+
+  .calc__checkbox .check__item {
+    width: 100% !important;
+  }
+
+  .calc__temp .calc__temp__item {
+    width: 100% !important;
+  }
 }
