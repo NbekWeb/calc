@@ -10,6 +10,30 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:checked + label::before {
+  background-color: #fff;
+  background-image: url("./img/check.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input[type=checkbox] + label::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid rgba(201, 201, 201, 0.8);
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
 body {
   background: #fff;
 }
@@ -230,6 +254,7 @@ body {
 }
 .calc .calc__right .calc__form .select__size .select__size__item {
   width: calc(50% - 20px);
+  padding-bottom: 15px;
 }
 .calc .calc__right .calc__form .select__size .select__size__item p {
   font-size: 15px;
@@ -252,6 +277,17 @@ body {
 .calc .calc__right .calc__form .select__size .select__size__item div span {
   color: #4d4d4d;
   font-size: 14px;
+}
+.calc .calc__right .calc__form .select__size .select__size__item .select__form {
+  border: 1px solid rgba(201, 201, 201, 0.8);
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden !important;
+  outline: none !important;
+}
+.calc .calc__right .calc__form .select__size .select__size__item .select__form .select__option {
+  background: #000 !important;
 }
 .calc .calc__right .form__temp {
   margin-top: 20px;
@@ -300,4 +336,20 @@ body {
   border-radius: 10px;
   width: 50%;
   height: 100%;
+}
+.calc .calc__right .calc__checkbox {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.calc .calc__right .calc__checkbox .check__item {
+  width: calc(50% - 20px);
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+.calc .calc__right .calc__checkbox .check__item .check__item__box {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */
