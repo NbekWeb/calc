@@ -520,7 +520,7 @@ body {
 }
 @media (max-width: 480px) {
   .calc__img .calc__img__item {
-    width: 300px !important;
+    width: 250px !important;
   }
 
   .calc__checkbox .check__item {
